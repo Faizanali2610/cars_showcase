@@ -38,6 +38,11 @@ export interface FiltersProps{
    model:string;
 }
 
+export interface HomeProps {
+   searchParams: FiltersProps;
+ }
+ 
+
 export interface OptionProps {
    title:string;
    value:string;
@@ -52,3 +57,4 @@ export interface ShowMoreProps{
    pageNumber:number;
    isNext:boolean;
 }
+
