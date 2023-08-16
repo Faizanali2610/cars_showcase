@@ -66,8 +66,8 @@ const CarCard = ({car}:CarCardProps) => {
       textStyles="text-white text-[14px] leading-[17px] font-bold"
       rightIcon="/right-arrow.svg"
       handleClick={()=>setIsOpen(true)}
-      >
-      </CustomButton>
+       />
+      
 
     </div>
     </div>
